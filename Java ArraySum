@@ -1,0 +1,17 @@
+public class ArraySum
+{
+    public static void main(String[] args) {
+    
+    int[] nums = {18, 25, 22, 15, 27, 13, 28};
+    int i;
+    int sum = 0;
+    
+    for (i = 0; i < nums.length; i++) 
+        {
+            sum = sum + nums[i];
+        }
+    
+    System.out.println(sum);
+        
+    }
+}
