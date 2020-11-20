@@ -1,0 +1,25 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+class GUI {
+
+ public static void main(String args[]) {
+  garbyx obj = new garbyx();
+  obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ }
+
+}
+
+class garbyx extends JFrame {
+
+ JLabel label = new JLabel("This software has been licensed.");
+
+ garbyx() {
+  super("Garby v1.0");
+  this.add(label);
+  this.setVisible(true);
+  this.setSize(400, 500);
+ }
+
+}
