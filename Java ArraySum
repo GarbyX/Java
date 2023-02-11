@@ -1,5 +1,5 @@
-public class ArraySum
-{
+public class ArraySum {
+
     public static void main(String[] args) {
     
     int[] nums = {18, 25, 22, 15, 27, 13, 28};
