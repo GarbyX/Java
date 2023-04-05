@@ -13,7 +13,8 @@ public class Human {
 public class Main {
   public static void main(String[] args) {
     Person myObj = new Human();
-    myObj.name = "GarbyX";
+    // myObj.name = "GarbyX";
+    myObj.setName("GarbyX");
     System.out.println(myObj.name);
   }
 }
